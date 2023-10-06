@@ -7,6 +7,7 @@
     <error-prop-example />
     <disabled-prop-example />
     <customizing-event-example />
+    <custom-option-slot-example />
     <name-and-id-prop-example />
     <disabled-options-example />
   </div>
@@ -22,6 +23,7 @@ import DisabledPropExample from "../components/Model/_DisabledProp.vue"
 import CustomizingEventExample from "../components/Model/_CustomizingEvent.vue"
 import NameAndIdPropExample from "../components/Model/_NameAndIdProp.vue"
 import DisabledOptionsExample from "../components/Model/_DisabledOptions.vue"
+import CustomOptionSlotExample from "../components/Model/_CustomOptionSlot.vue"
 
 export default {
   components: {
@@ -33,7 +35,8 @@ export default {
     DisabledPropExample,
     CustomizingEventExample,
     NameAndIdPropExample,
-    DisabledOptionsExample
+    DisabledOptionsExample,
+    CustomOptionSlotExample
   },
 }
 </script>
