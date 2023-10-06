@@ -22,7 +22,11 @@ export default {
       onBlur: () => this.$emit('blur'),
       "onUpdate:modelValue": this.onInput,
       onSearchchange: (searchText) => this.$emit("searchchange", searchText)
-    })
+    },
+    {
+      default: () => h('div', { slot: 'option' }, this.$slots['option'])
+    }
+    )
   },
   props: {
     modelValue: {
